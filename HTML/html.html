@@ -6,6 +6,7 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Heading -->
     <h1>
         Hi there.
     </h1>
@@ -13,8 +14,9 @@
     <br>
     <br>
     <br>
-    
+    <!-- Div -->
     <div>
+        <!-- Pragraph -->
         <p title="Para title">
             <strong>This is a paragraph</strong><br>
             <em>This is emphasis</em><br>
@@ -29,6 +31,7 @@
     <br>
     <br>
     <br>
+    <!-- List -->
     <ul>
         <li>First</li>
         <li>Second</li>
@@ -40,12 +43,15 @@
     <br>
     <br>
     <br>
+    <!-- Hyperlink -->
     <a href="https:\\google.com" target="_blank">Go to google</a>
+    <!-- Image -->
     <img src="https://i2.cdn.turner.com/money/dam/assets/150901123238-google-new-logo-780x439.png" height="100px" width="200px" alt="Hi">
     <br>
     <br>
     <br>
     <br>
+    <!-- Table -->
     <table>
         <thead>
             <tr>
@@ -68,5 +74,26 @@
     <br>
     <br>
     <br>
+    <!-- Form -->
+    <form>
+        <fieldset>
+            <legend>User details</legend>
+            <label for="userName">Username</label>
+            <input type="text" id="userName" placeholder="Username"><br><br>
+            <label for="email">Email address</label>
+            <input type="email" id="email" placeholder="Email address"><br><br>
+            <label for="check"></label>
+            <input type="checkbox" id="check" name="checkbox" value="Bank">Bank
+            <input type="checkbox" id="check" name="checkbox" value="ATM">ATM
+            <input type="checkbox" id="check" name="checkbox" value="Brach">Brach
+            <input type="checkbox" id="check" name="checkbox" value="Home">Home <br><br>
+            <label for="option">Select</label>
+            <select name="select" id="select">
+                <option value="Debit">Debit</option>
+                <option value="Credit">Credit</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
 </body>
 </html>
