@@ -1,0 +1,58 @@
+body{
+    font-family: 'Baloo Tamma 2', cursive;
+    font-size: 15px;
+    line-height: 2rem;
+    margin: 0;
+}
+
+#para{
+    border: chartreuse solid 2px;
+    padding: 2rem 1.5rem;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+#mainHead{
+    background: #333;
+    margin: auto;
+    text-align: center;
+    color: turquoise;
+}
+#mainNav{
+    background: #ccc;
+    color: #333;
+    text-align: center;
+}
+#mainNav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#mainNav li{
+    display: inline;
+    padding: 5px 2px;
+}
+#mainNav a{
+    text-decoration: none;
+    color: #333;
+    font-size: 15px;
+}
+#mainNav a:hover{
+    background: #aaa;
+    color: darkblue;
+}
+#header{
+    background-image: url('../CSS/background.jpg');
+    text-align: center;
+    color: bisque;
+}
+#foot{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    vertical-align: bottom;
+}
