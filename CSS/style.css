@@ -3,6 +3,7 @@ body{
     font-size: 15px;
     line-height: 2rem;
     margin: 0;
+    padding: 0;
 }
 
 #para{
@@ -48,11 +49,33 @@ body{
     text-align: center;
     color: bisque;
 }
+
+@media(max-width:600px){
+    #foot{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    width: 97%;
+}
+}
 #foot{
     background: #333;
     color: #fff;
     text-align: center;
     padding: 20px;
     margin-top: 50px;
-    vertical-align: bottom;
+    position: absolute;
+    width: 97%;
+}
+@media(min-width:980px){
+    #foot{
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+    width: 98%;
+    bottom: 0;
 }
