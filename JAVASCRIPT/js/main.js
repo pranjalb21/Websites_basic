@@ -1,0 +1,18 @@
+//variable declaration with var, let and const;
+var c = 8;
+c = 80;
+let a = 10;
+a = 40;
+const b = 20;
+console.log(c, a, b);
+//Data types String, Numbers, Boolean, Null, Undefined;
+const name = 'Pranjal';
+const age = 22;
+const status = false;
+const g = null;
+const x = undefined;
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof status);
+console.log(typeof g);
+console.log(typeof x);
