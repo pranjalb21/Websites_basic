@@ -89,7 +89,7 @@ switch(big){
         break;
     default:
         console.log('Unknown');
-}*/
+}
 //function
 function add(num1=2, num2=3){
     console.log(num1+num2);
@@ -101,4 +101,50 @@ const res = (num1=3 , num2=4) => num1 + num2;
 console.log(res(5,6));
 
 x = [1,2,3,4,5,6];
-x.forEach((y) => console.log(y));
+x.forEach((y) => console.log(y));*/
+//Class
+class name{
+    name = 'Pranjal';
+    printname = () => {
+        console.log(this.name);
+    }
+}
+class gender extends name{
+    name = 'Babla'
+    gender = 'Male';
+    printgender = () => {
+        console.log(this.gender);
+    }
+}
+const a = new gender();
+a.printname();
+a.printgender();
+const b = new name();
+b.printname();
+//Spread operator
+arr = [1, 2, 3, 4];
+arr1 = [...arr, 5, 6];
+console.log(arr1);
+ob1 = {
+    a: 1,
+    b: 2,
+    c: 3
+}
+
+ob2 = {
+    ...ob1,
+    d: 4,
+    e: 5,
+    f: 6
+}
+//Rest operator
+const arg = (...args) => {
+    console.log(args);
+}
+arg(1,2,3,4,5);
+arg(1,2);
+arg(ob2, ob1);
+const x = (...args) => {
+    console.log(args.filter(x => x % 2 === 0));
+}
+x(1,2,3,4,5,6,7,8,9,10);
